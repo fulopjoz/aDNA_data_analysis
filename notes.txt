@@ -1,0 +1,14 @@
+
+Linky:
+ještě jeden link, to úložiště AADR se chystá k publikaci, tady je o tom i preprint článku - třeba tam budou nějaké další informace, které můžeme použít: https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/AADR%20bioRxiv.pdf
+Reichs Lab: https://reich.hms.harvard.edu/
+Soft - EIGENSTRAT: https://reich.hms.harvard.edu/software
+mt dataset: https://reichdata.hms.harvard.edu/pub/datasets/amh_repo/curated_releases/V54/V54.1.p1/SHARE/public.dir/index_v54.1.p1_MT.html
+metadata a srovnávací moderní + ancient vzorky (AADR): https://reich.hms.harvard.edu/allen-ancient-dna-resource-aadr-downloadable-genotypes-present-day-and-ancient-dna-data
+AmtDB - naše databáze: https://amtdb.org/
+
+úkoly:
+- srovnat "mt dataset" s amtDB, vyfiltrovat 1. vzorky, které v amtDB nemají fastu, ale fasta je k dispozici v "mt dataset"; 2. vzorky, které jsou v "mt dataset", ale nejsou vůbec v amtDB (metadata k mt dataset jsou v "ind" souborech v AADR
+- podívat se na EIGENSOFT
+- mt pipeline, přivezu?
+- srovnávací moderní data, příprava (1000 Genomes project, Simons Diversity Project, další???)
