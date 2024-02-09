@@ -93,26 +93,26 @@ This section of the pipeline introduces functions for loading IDs from various f
 
 This section focuses on a refined strategy for analyzing ancient DNA data by leveraging "Genetic ID" from the AADR dataset. This approach is designed to improve the specificity and accuracy of matching sequences to metadata, facilitating a deeper analysis of the genetic information available in these ancient datasets.
 
-### Key Functions
+### Key Functions 2
 
 - `load_ids_from_csv`, `load_ids_from_anno`, `load_ids_from_fasta`: These functions are tailored for loading IDs from CSV files, annotation files, and FASTA files, respectively, using "Genetic ID" as the key identifier for the AADR data.
 - `find_missing_sequences`: Identifies and lists IDs expected in the dataset but missing from the FASTA sequence files.
 - `extract_and_save_sequences`: Extracts sequences that match specified IDs from FASTA files and saves them for further analysis.
 - `match_and_save_metadata_amtdb` and `match_and_save_metadata_aadr`: These functions match metadata for specified IDs against the AmtDB and AADR datasets and save the matched metadata to CSV files.
 
-### Processing Steps
+### Processing Steps 2
 
 1. **ID Loading**: Load all relevant IDs from both AmtDB and AADR databases, focusing on metadata and FASTA file IDs using "Genetic ID".
 2. **Missing Sequence Identification**: Identify sequences that are missing within AmtDB and those that are present in AADR but not in AmtDB, enhancing the comprehensiveness of the dataset analysis.
 3. **Sequence and Metadata Extraction**: Extract sequences based on identified missing IDs and match metadata for these sequences, emphasizing the utility of "Genetic ID" for nuanced data integration.
 
-### Results
+### Results 2
 
 - Identified **920 sequences missing internally within AmtDB** and **2996 sequences not present in AmtDB but available in AADR**.
 - Extracted and saved **404 sequences missing internally in AmtDB** found in AADR, with **434 metadata records** matched and saved.
 - Additionally, **3004 sequences not present in AmtDB** were extracted and saved, with their corresponding metadata records.
 
-### Outputs
+### Outputs 2
 
 - Sequences missing internally in AmtDB but found in AADR are saved in `output/sequences_missing_internally_in_AmtDB_geneticID.fasta` with metadata in `output/metadata_for_sequences_missing_internally_in_AmtDB_geneticID.csv`.
 - Sequences not present in AmtDB are saved in `output/sequences_not_present_in_AmtDB_geneticID.fasta` with metadata in `output/metadata_for_sequences_not_present_in_AmtDB_geneticID.csv`.
