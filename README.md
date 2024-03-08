@@ -1,10 +1,10 @@
-# Ancient DNA Analysis Pipelines
+# Ancient DNA Analysis Pipeline
 
 ## Overview
 
 This repository contains a Jupyter notebook implementing three pipelines for the analysis of ancient DNA (aDNA) data, focusing on integrating and analyzing datasets from AmtDB and the Allen Ancient DNA Resource (AADR). These pipelines are designed to identify missing sequences, extract and save specific sequences, and match and save metadata for comprehensive analysis.
 
-## Pipelines Overview
+## Pipeline Overview
 
 ### 1. Initial Pipeline
 
