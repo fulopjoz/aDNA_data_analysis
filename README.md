@@ -1,4 +1,6 @@
-# Ancient DNA Analysis Pipeline
+# OLD VERSION
+
+## Ancient DNA Analysis Pipeline
 
 ## Overview
 
